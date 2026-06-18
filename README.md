@@ -12,35 +12,42 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 ## 📌 Checklist
 
-* [ ] meu site tem pelo menos um arquivo do tipo `.html` 
-* [ ] estou usando CSS externo, em um arquivo separado `.css`
+* [x] meu site tem pelo menos um arquivo do tipo `.html` 
+* [x] estou usando CSS externo, em um arquivo separado `.css`
 * [ ] estou usando Javascript externo, em um arquivo separado `.js`
-* [ ] os arquivos do meu site estão na pasta `site`
-* [ ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
+* [x] os arquivos do meu site estão na pasta `site`
+* [x] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
-* [ ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
+* [x] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
-* [ ] respondi todas as perguntas e preenchi todos os checkboxes abaixo
+* [x] respondi todas as perguntas e preenchi todos os checkboxes abaixo
 * [ ] meu site está hospedado no GitHub Pages, no link `<escreva aqui o link do seu site>`
 
 ## 📖 Descrição do projeto
 
 Descreva abaixo **sobre o que se trata seu site:**
 
-- **Tema:**
-- **Público-alvo:**
-- **Funcionalidades:**
+- **Tema:Psicultura
+- **Público-alvo:Clientes interessados na compra de peixes e alevinos para consumo ou criação.
+- 
+- **Funcionalidades:Apresentação da empresa.
+* Exibição dos peixes disponíveis.
+* Exibição dos alevinos disponíveis.
+* Tabela de preços dos alevinos.
+* Botão para contato via WhatsApp.
+* Navegação entre as páginas do site.
+* Mensagens interativas utilizando JavaScript.
 
 ## Uso de IA
 
 Se você utilizou uma IA, marque a caixa abaixo e preencha os campos:
 
-* [ ] declaro que utilizei uma IA para me auxiliar na elaboração do trabalho, mas que domino os conceitos vistos em aula
+* [x] declaro que utilizei uma IA para me auxiliar na elaboração do trabalho, mas que domino os conceitos vistos em aula
   e saberei explicá-los quando indagado pelo professor.
 
 * **IA utilizada:**
 * **Forma de utilização da IA:**
-  * [ ] fiz perguntas pontuais à IA, mas eu programei o código do meu site
+  * [x] fiz perguntas pontuais à IA, mas eu programei o código do meu site
   * [ ] dei um prompt para a IA, ela me deu um código e eu colei o código nos arquivos do meu site
 
 ## 🧩 Componentes HTML utilizados
@@ -51,28 +58,28 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura básica
 
-- [ ] `<!DOCTYPE html>`
-- [ ] `<html>`
-- [ ] `<head>`
-- [ ] `<title>`
-- [ ] `<body>`
+- [x] `<!DOCTYPE html>`
+- [x] `<html>`
+- [x] `<head>`
+- [x] `<title>`
+- [x] `<body>`
 
 #### Estrutura semântica
 
-- [ ] `<header>`
-- [ ] `<nav>`
+- [x] `<header>`
+- [x] `<nav>`
 - [ ] `<main>`
 - [ ] `<section>`
 - [ ] `<article>`
 - [ ] `<aside>`
-- [ ] `<footer>`
+- [x] `<footer>`
 
 #### Conteúdo
 
-- [ ] Títulos (`h1`, `h2`, `h3`, etc.)
-- [ ] Parágrafos (`p`)
-- [ ] Imagens (`img`)
-- [ ] Links (`a`)
+- [x] Títulos (`h1`, `h2`, `h3`, etc.)
+- [x] Parágrafos (`p`)
+- [x] Imagens (`img`)
+- [x] Links (`a`)
 - [ ] Listas:
   - [ ] `ul`
   - [ ] `ol`
@@ -83,28 +90,28 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [ ] `<input>`
 - [ ] `<label>`
 - [ ] `<textarea>`
-- [ ] `<button>`
+- [x] `<button>`
 
 ### 🎨 CSS
 
 - Seletor de...
-  - [ ] Classes (`.classe`)
-  - [ ] IDs (`#id`)
-  - [ ] pseudoclasse (`#a::hover`)
-- [ ] Cores
-- [ ] Tipografia (e.g. `font-family`)
-- [ ] Margem e padding
+  - [x] Classes (`.classe`)
+  - [x] IDs (`#id`)
+  - [x] pseudoclasse (`#a::hover`)
+- [x] Cores
+- [x] Tipografia (e.g. `font-family`)
+- [x] Margem e padding
 - [ ] Layout com `flexbox`
 - [ ] Layout com `grid`
-- [ ] Responsividade (`media queries`)
+- [x] Responsividade (`media queries`)
 - [ ] Animações ou transições
 
 ## ⚙️ JavaScript
 
-- [ ] Manipulação do DOM
-- [ ] Eventos (`click`, `submit`, etc.)
+- [x] Manipulação do DOM
+- [x] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
-- [ ] Alteração dinâmica de conteúdo
+- [x] Alteração dinâmica de conteúdo
 - [ ] Uso de funções
 - [ ] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
@@ -117,13 +124,9 @@ Descreva brevemente a organização dos arquivos do seu projeto.
 
 Exemplo:
 
-```
-site/
+`site/
 │
 ├── index.html
-├── pages/
-│   ├── about.html
-│   └── contact.html
 │
 ├── css/
 │   └── style.css
@@ -132,8 +135,13 @@ site/
 │   └── script.js
 │
 └── images/
-    ├── logo.png
-    └── banner.jpg
+├── hungara.jpg
+├── carpa-capim.jpg
+├── tilapia.jpg
+├── piava.jpg
+├── pacu.jpg
+└── traira.jpg
+
 ```
 
 ## 💡 Observações
